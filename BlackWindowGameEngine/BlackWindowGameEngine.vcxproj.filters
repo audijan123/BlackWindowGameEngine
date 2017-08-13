@@ -13,5 +13,24 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Headerdateien\VulkanRender">
+      <UniqueIdentifier>{990e685d-1ed2-496d-a2d4-d56137c91b9f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Quelldateien\VulkanRender">
+      <UniqueIdentifier>{df4e7ce6-943c-48f7-9e09-6c88be9857da}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="vulkanmain.cpp">
+      <Filter>Quelldateien\VulkanRender</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="vulkanmain.hpp">
+      <Filter>Headerdateien\VulkanRender</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
